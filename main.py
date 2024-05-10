@@ -7,7 +7,7 @@ def welcome_user():
     StartPoint = '49.89459, 10.88587'
     # EndPoint = input("Please enter your End point: ")
     EndPoint = '49.87682, 10.78936'
-    ApiKey = '70H7XIcB7JygXLskc7LvDmVzjlSVi_TIBBSD_qSOQeU'
+    ApiKey = "xyz"
     distance, duration = get_itinerary(StartPoint, EndPoint, ApiKey)
     if distance is not None and duration is not None:
         print("Distance:", distance, "km")
